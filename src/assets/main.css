@@ -1,0 +1,45 @@
+@import './base.css';
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+}
+
+.countries,
+.cities {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.selected {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: lightgreen;
+  cursor: default;
+}
+
+/* .incorrect {
+  background-color: #ff9999;
+  cursor: default;
+} */
+
+@media screen and (min-width: 600px){
+  .btn {
+    width: 80px;
+    font-size: 8px;
+  }
+}
+
+
